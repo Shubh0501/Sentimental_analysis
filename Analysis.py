@@ -20,7 +20,7 @@ savefile = csv.writer(open("animalrescuefiltered.csv", "w"))
 savefile.writerow(["TWEETS", "SENTIMENTS ATTACHED"])
 
 
-tweet_s = open("#animalrescue2.csv")
+tweet_s = open("#animalrescue.csv")
 
 for tweet in tweet_s:
     

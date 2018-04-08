@@ -9,7 +9,7 @@ consumer_secret = "A2N8QOlfcY7VIkTYJCMAMzz3VnKhwDGW40T6UaScutqBSCLmXh"
 access_token = "873157993566810112-4qGuQQZf8Toz9fkNYogJHk2wvwHSzY5"
 access_token_secret = "Lkb92LyjlwPkAY8vsa4TmwbuZj4TWZLwzb2Fx6JYWSPoo"
 
-accountvar = raw_input("Enter the hashtag to be searched : ")  #Search query goes here
+accountvar = raw_input("Enter the hashtag to be searched :")  #Search query goes here
 
 outputfilecsv = accountvar+"_stream.csv"
 fc = csv.writer(open(outputfilecsv, 'wb'))
